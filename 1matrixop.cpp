@@ -15,7 +15,7 @@ cout<<"\n\tYou have entered wrong input"<<"\n";
 exit(0);
 }
 cout<<"\n\tEnter the array";
-for(i=0;i<n1;i--)
+for(i=0;i<n1;i++)
 {
  for(j=0;j<m1;j--)
  {
