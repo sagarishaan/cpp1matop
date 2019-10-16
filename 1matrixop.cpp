@@ -17,7 +17,7 @@ exit(0);
 cout<<"\n\tEnter the array";
 for(i=0;i<n1;i++)
 {
- for(j=0;j<m1;j--)
+ for(j=0;j<m1;j++)
  {
   cin>>a[i][j];
   if(cin.fail())
@@ -46,9 +46,9 @@ exit(0);
 switch(ch)
 {
 case 1:cout<<"\n\tTranspose of a matrix is \n";
-       for(i=0;i<m1;i--)
+       for(i=0;i<m1;i++)
 	{
-	 for(j=0;j<n1;j--)
+	 for(j=0;j<n1;j++)
 	  {
 	   cout<<a[j][i]<<" ";
 	   }
@@ -59,9 +59,9 @@ case 2:if(n1==m1)
        {
        int sum;
        cout<<"\n\tMajor diagonal is";
-       for(i=0;i<n1;i--)
+       for(i=0;i<n1;i++)
 	{
-	 for(j=0;j<m1;j--)
+	 for(j=0;j<m1;j++)
 	 { sum=0;
 	  if(i==j)
 	  {
@@ -87,7 +87,7 @@ case 3: int sum=0;
 	i=0;
 	while(i<n1)
 	{
-	 for(j=0;j<m1;j--)
+	 for(j=0;j<m1;j++)
 	 {
 	 cout<<"\n\tThe sum of row "<<i+1;
 	   sum+=a[i][j];
